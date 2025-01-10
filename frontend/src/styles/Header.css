@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  width: 1440px;
+  height: 100px;
+  padding: 19px 111px 20px 112px;
+  justify-content: center;
+  align-items: center;
+  gap: 311px;
+}
+.sell-give {
+  margin-left: 1;
+  text-transform: "none";
+  border: "1px solid black"
+}
+
+.authButton {
+ margin-left: 36px;
+}

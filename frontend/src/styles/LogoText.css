@@ -1,0 +1,18 @@
+.logo {
+font-feature-settings: 'cv01' on, 'cv03' on, 'cv04' on;
+display: flex;
+/* Heading/H5/Bold */
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 28.8px */
+letter-spacing: -0.48px;
+justify-content: center;
+align-items: center;
+margin: 0;
+
+}
+.logoText {
+  margin-left: 16px;;
+}
