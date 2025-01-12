@@ -1,0 +1,11 @@
+.headerBackground {
+  background-image: url('../assets/heros-img.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 60vh; /* Ensures it covers the viewport height */
+  display: flex;
+  flex-direction: column;
+  color: white; /* Default text color */
+}

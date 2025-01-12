@@ -13,6 +13,7 @@ import { useNavigate } from "react-router-dom";
 import "../styles/Header.css";
 import LogoText from "./LogoText";
 
+
 const Header = () => {
   const navigate = useNavigate();
   const isMobile = useMediaQuery("(max-width:600px)");
@@ -75,7 +76,7 @@ const Header = () => {
   );
 
   return (
-    <AppBar position="fixed" sx={{ backgroundColor: "white", color: "black" }} className="header">
+    <AppBar position="fixed" sx={{background: "#301E14", color: "white"}}  className="header">
       <Toolbar>
         {isMobile && (
           <IconButton
@@ -104,7 +105,7 @@ const Header = () => {
             <Button
               color="inherit"
               onClick={() => navigate(menuItemsSell.path)}
-              sx={{ marginLeft: 1, textTransform: "none", border: "1px solid black" }}
+              sx={{ marginLeft: 1, textTransform: "none", border: "1px solid white" }}
             >
               {menuItemsSell.label}
             </Button>

@@ -1,0 +1,92 @@
+.heroContainer {
+  background-image: url('../assets/heros-img.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 2rem 1rem; /* Adjust for consistent spacing */
+  height: 60vh;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  box-sizing: border-box; /* Ensure consistent padding and border rendering */
+  overflow: hidden; /* Prevent content overflow */
+  margin-top: 100px;
+}
+
+.heroContent {
+  width: 90%; /* Make content width responsive */
+  max-width: 600px; /* Limit maximum width for larger screens */
+}
+
+.heroHeading {
+  color: #fff;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 3rem; /* Scalable font size for responsiveness */
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: -1.5px;
+  margin-bottom: 1rem; /* Space below heading */
+}
+
+.heroText {
+  color: #fff;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.2rem; /* Scalable font size */
+  font-weight: 500;
+  line-height: 2;
+  margin-bottom: 2rem; /* Space below text */
+}
+
+.heroContainer input[type="text"] {
+  width: 80%; /* Responsive width */
+  max-width: 400px; /* Limit maximum width */
+  padding: 0.75rem 1rem;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.heroContainer input[type="text"]::placeholder {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.heroContainer input[type="text"]:focus {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-color: #fff;
+}
+
+.heroContainer button {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  color: #fff;
+  background-color: #2F6D57;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.heroContainer button:hover {
+  background-color: #2c745b;
+  transform: scale(1.05);
+}
+
+.heroContainer button:focus {
+  outline: 2px solid #fff;
+}

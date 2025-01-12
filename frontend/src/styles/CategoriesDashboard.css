@@ -1,0 +1,36 @@
+/* General styling for the dashboard */
+.categoriesDashboard {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.categoriesDashboard h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.categoriesDashboard p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* Container for the category cards */
+.categoriesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Adjust card styling for responsiveness */
+@media (max-width: 768px) {
+  .categoriesContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+}

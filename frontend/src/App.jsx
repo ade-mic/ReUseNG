@@ -1,17 +1,20 @@
 import React, { useState } from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import LandingPage from './pages/LandingPage'
 import Header from './components/Header'
-import './App.css'
+import Footer from './components/Footer'
+import './styles/App.css'
 
 function App() {
   return (
     <Router>
       <Header />
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        </Routes>
       <div className="container">
-        <h1>
-          Men at Work
-        </h1>
         </div>
+        <Footer />
     </Router>
 
   )

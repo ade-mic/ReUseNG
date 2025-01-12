@@ -1,0 +1,108 @@
+.guidelineContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  margin: auto;
+  margin-top: 150px;
+  max-width: 1200px;
+}
+
+.guidelineHeader {
+  text-align: center;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.guidelineHeader h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.guidelineHeader p {
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.guidelineSellerGiver,
+.guidelineBuyerReceivers {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 16px;
+  background: #2F6D57;
+  color: #ffffff;
+}
+
+.guidelineBuyerReceivers {
+  background: #BEEFD3;
+  color: black;
+  max-height: 520px;
+}
+
+.guidelineSellerGiver h2,
+.guidelineBuyerReceivers h2 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.guidelineSellerGiver ol,
+.guidelineBuyerReceivers ol {
+  padding-left: 20px;
+  margin: 0;
+  list-style-type: bullet;
+}
+
+.guidelineSellerGiver li,
+.guidelineBuyerReceivers li {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.guidelineSellerGiver ul li,
+.guidelineBuyerReceivers ul li {
+  font-size: 1rem;
+  font-weight: normal;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  list-style-type: disc;
+}
+
+.guidelineSellerGiver ul,
+.guidelineBuyerReceivers ul {
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+.guidelineSellerGiver p,
+.guidelineBuyerReceivers p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+  .guidelineContainer {
+   flex: wrap;
+    padding: 10px;
+    margin: 0 auto;
+  }
+
+  .guidelineSellerGiver,
+  .guidelineBuyerReceivers {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .guidelineHeader h1 {
+    font-size: 2rem;
+  }
+
+  .guidelineHeader p {
+    font-size: 1rem;
+  }
+}
